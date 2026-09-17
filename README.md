@@ -12,7 +12,7 @@ fall26
 
 | Week | Topic | Homework | Status |
 | --- | --- | --- | --- |
-| 01 | Backpropagation & Adaptive Optimization | Backprop + SGD variants | In Progress |
+| 01 | Backpropagation & Adaptive Optimization | Backprop + SGD variants | Completed ✅ |
 | 02 | Autodiff & PyTorch | PyTorch homework | Not Started |
 | 03 | Convolutional Neural Networks | TBD | Not Started |
 
@@ -32,7 +32,19 @@ Assignments:
   - Implement and compare SGD modifications
   - 5 points
 
-Main topics:
+### Completed
+
+- Implemented ReLU forward/backward from scratch with NumPy
+- Implemented Dense forward/backward and parameter updates
+- Implemented arbitrary-depth forward propagation and backpropagation
+- Used numerical gradient checks to verify layer gradients
+- Trained a multilayer perceptron on MNIST
+- Implemented logistic regression with quadratic feature expansion
+- Implemented and tested vanilla SGD, Momentum, and RMSProp
+- Bonus: implemented Adam with first/second moment estimates and bias correction
+- Restarted kernels and verified both notebooks with `Run All`
+
+### Main topics
 
 - Forward propagation
 - Chain rule
@@ -40,7 +52,7 @@ Main topics:
 - Dense layer gradients
 - Activation gradients
 - Gradient checking
-- SGD
+- Mini-batch SGD
 - Momentum
 - RMSProp
 - Adam
