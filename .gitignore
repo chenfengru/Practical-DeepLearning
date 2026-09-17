@@ -27,3 +27,9 @@ wandb/
 *.pth
 *.pt
 *.ckpt
+
+# Local environment
+.env
+
+# Downloaded MNIST data
+week01_backprop/*-idx*-ubyte.gz
