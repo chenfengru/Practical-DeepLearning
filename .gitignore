@@ -33,3 +33,7 @@ wandb/
 
 # Downloaded MNIST data
 week01_backprop/*-idx*-ubyte.gz
+
+# Downloaded notMNIST data
+week02_autodiff/notMNIST_small/
+week02_autodiff/notMNIST_small.tar.gz

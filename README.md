@@ -13,7 +13,7 @@ fall26
 | Week | Topic | Homework | Status |
 | --- | --- | --- | --- |
 | 01 | Backpropagation & Adaptive Optimization | Backprop + SGD variants | Completed ✅ |
-| 02 | Autodiff & PyTorch | PyTorch homework | Not Started |
+| 02 | Autodiff & PyTorch | PyTorch homework | Completed ✅ |
 | 03 | Convolutional Neural Networks | TBD | Not Started |
 
 ## Week 01
@@ -56,6 +56,37 @@ Assignments:
 - Momentum
 - RMSProp
 - Adam
+
+## Week 02
+
+Directory:
+
+    week02_autodiff/
+
+### Completed
+
+- Practiced PyTorch tensors and vectorized operations
+- Used autograd for automatic differentiation
+- Trained models with `torch.optim`
+- Implemented binary cross-entropy training on notMNIST
+- Implemented tensor-only polar-coordinate operations
+- Implemented Conway's Game of Life with PyTorch `conv2d`
+- Built a nonlinear MLP with two linear layers for 10-class notMNIST classification
+- Achieved 91.01% test accuracy without convolutional layers
+
+### Main topics
+
+- PyTorch tensors
+- Automatic differentiation
+- Computational graphs
+- `nn.Module` and `nn.Sequential`
+- Loss functions
+- Optimizers
+- Mini-batch training
+- `conv2d` and tensor dimensions
+- Multiclass classification
+- Cross-entropy
+- Train/evaluation modes
 
 ## Goal
 
