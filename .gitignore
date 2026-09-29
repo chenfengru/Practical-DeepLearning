@@ -37,3 +37,9 @@ week01_backprop/*-idx*-ubyte.gz
 # Downloaded notMNIST data
 week02_autodiff/notMNIST_small/
 week02_autodiff/notMNIST_small.tar.gz
+
+# Downloaded CIFAR-10 data
+week03_convnets/cifar_data/
+week03_convnets/dataset/
+week03_convnets/dataset.tar
+week03_convnets/dataset.tar.part-*

@@ -14,7 +14,7 @@ fall26
 | --- | --- | --- | --- |
 | 01 | Backpropagation & Adaptive Optimization | Backprop + SGD variants | Completed ✅ |
 | 02 | Autodiff & PyTorch | PyTorch homework | Completed ✅ |
-| 03 | Convolutional Neural Networks | TBD | Not Started |
+| 03 | Convolutional Neural Networks | CIFAR-10 CNN | Completed ✅ |
 
 ## Week 01
 
@@ -87,6 +87,23 @@ Directory:
 - Multiclass classification
 - Cross-entropy
 - Train/evaluation modes
+
+## Week 03
+
+Directory:
+
+    week03_convnets/
+
+### Completed
+
+- Built dense and convolutional CIFAR-10 baselines
+- Added BatchNorm, dropout, pooling, and data augmentation
+- Iteratively increased CNN depth from one to three convolutional blocks
+- Used validation-based checkpoint selection and early stopping
+- Used Apple MPS acceleration for training
+- Achieved 85.61% best validation accuracy
+- Achieved 84.70% final CIFAR-10 test accuracy without pretrained models
+
 
 ## Goal
 
