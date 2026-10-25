@@ -43,3 +43,4 @@ week03_convnets/cifar_data/
 week03_convnets/dataset/
 week03_convnets/dataset.tar
 week03_convnets/dataset.tar.part-*
+Train_rev1.csv
