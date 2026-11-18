@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED CPU ONLY",
+  "model": "random tiny Qwen3; not pretrained 8B",
+  "device": "cpu",
+  "baseline": {
+    "token_nll": 3.4986379146575928,
+    "perplexity": 33.070376592189135,
+    "predicted_tokens": 14,
+    "sequences": 2
+  },
+  "after": {
+    "token_nll": 3.498585343360901,
+    "perplexity": 33.068638085307775,
+    "predicted_tokens": 14,
+    "sequences": 2
+  },
+  "training": {
+    "global_step": 2,
+    "skipped_overflow_steps": 0,
+    "mean_training_loss": 3.498629093170166,
+    "elapsed_seconds": 0.03736338800001704,
+    "history": [
+      {
+        "step": 1,
+        "loss": 3.4986379146575928,
+        "learning_rate": 8.000000000000001e-06,
+        "grad_norm": 0.24322298169136047,
+        "elapsed_seconds": 0.016142534000010755
+      },
+      {
+        "step": 2,
+        "loss": 3.4986202716827393,
+        "learning_rate": 1.6000000000000003e-05,
+        "grad_norm": 0.24327243864536285,
+        "elapsed_seconds": 0.03523112700000297
+      }
+    ]
+  },
+  "modules": 12,
+  "modules_with_updated_B": 12,
+  "checkpoint_tensors": 24,
+  "reload_logits_equal": true,
+  "reload_generations_equal": true
+}
