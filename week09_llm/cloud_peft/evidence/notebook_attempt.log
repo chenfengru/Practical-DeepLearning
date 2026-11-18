@@ -1,0 +1,32 @@
+EXECUTING execution-controls
+EXECUTING custom-lora-utilities
+EXECUTING legacy-01
+EXECUTING legacy-02
+EXECUTING legacy-04
+EXECUTING legacy-06
+EXECUTING legacy-08
+EXECUTING legacy-09
+EXECUTING legacy-11
+EXECUTING legacy-12
+EXECUTING legacy-13
+EXECUTING legacy-15
+EXECUTING legacy-16
+EXECUTING legacy-17
+EXECUTING legacy-19
+EXECUTING legacy-20
+EXECUTING legacy-21
+EXECUTING legacy-23
+EXECUTING legacy-24
+EXECUTING legacy-25
+EXECUTING legacy-26
+EXECUTING legacy-28
+EXECUTING legacy-29
+EXECUTING final-environment
+Traceback (most recent call last):
+  File "/workspace/Practical-DeepLearning/week09_llm/cloud_peft/run_notebook.py", line 37, in <module>
+    main()
+  File "/workspace/Practical-DeepLearning/week09_llm/cloud_peft/run_notebook.py", line 28, in main
+    exec(compile(''.join(cell['source']), f"{notebook_path.name}:{cell['id']}", 'exec'), scope)
+  File "Practice_peft_cloud.ipynb:final-environment", line 2, in <module>
+  File "Practice_peft_cloud.ipynb:custom-lora-utilities", line 85, in require_cloud_cuda
+RuntimeError: BLOCKED: Linux cloud CUDA GPU required. Never run training on a local Mac.
