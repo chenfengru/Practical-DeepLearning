@@ -1,0 +1,12 @@
+# Assignment runtime artifacts and credentials must stay out of Git.
+__pycache__/
+.pytest_cache/
+outputs/
+*_custom_lora_v*/
+*.pt
+*.pth
+*.safetensors
+*.bin
+kaggle.json
+access_token
+.env
